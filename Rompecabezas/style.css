@@ -1,0 +1,27 @@
+#Rompecabezas{
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    background-color: antiquewhite;
+    height: 30em;
+    width: 30em;
+}
+#Bloques{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+    grid-auto-rows: minmax(7em, auto);
+    padding: 1em;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+button{
+    font-size: 3em;
+    background-color:tomato;
+}
+#Cabecera{
+    display: flex;
+    justify-content: center;
+}
